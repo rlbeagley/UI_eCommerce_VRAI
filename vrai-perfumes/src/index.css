@@ -33,3 +33,13 @@ h3{
 .whiteText {
   color:white;
 }
+
+.scent-img {
+    height: 30em;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.scent-img:hover {
+  transform: scale(1.05);
+}
