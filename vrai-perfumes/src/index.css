@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Makcasa';
+  src: url('assets/fonts/Makcasa-Regular.otf') format('otf');
+}
+
+h1, h2, h3 {
+  font-family: 'Makcasa', serif;
+}
+
+h1 {
+  font-size:12em;
+}
+
+h2 {
+  font-size:5em;
+}
+
+h3{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url("./assets/images/perfume4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.whiteText {
+  color:white;
+}
