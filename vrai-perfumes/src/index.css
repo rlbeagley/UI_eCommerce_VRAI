@@ -2,7 +2,6 @@
   font-family: 'Makcasa';
   src: url('assets/fonts/Makcasa-Regular.otf') format('otf');
 }
-
 h1, h2, h3 {
   font-family: 'Makcasa', serif;
 }
@@ -42,4 +41,95 @@ h3{
 
 .scent-img:hover {
   transform: scale(1.05);
+}
+
+.customNav {
+  font-family: 'Makcasa', serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+}
+
+.filter-sidebar {
+  font-family: 'Inter', sans-serif;
+}
+
+.filter-sidebar .accordion-item {
+  border: none;
+}
+
+.filter-sidebar .accordion-button {
+  box-shadow: none;
+}
+
+.filter-sidebar .accordion-button:focus {
+  box-shadow: none;
+}
+
+.filter-sidebar .accordion-button:not(.collapsed) {
+  background-color: #CFADA3;
+  color: #000;
+}
+
+.filter-sidebar .form-check-input:checked {
+  background-color: #CFADA3;
+  border-color: #CFADA3;
+}
+
+.filter-sidebar .form-range::-webkit-slider-thumb {
+  background-color: #CFADA3;
+}
+
+.filter-sidebar .form-range::-moz-range-thumb {
+  background-color: #CFADA3;
+  border: none;
+}
+
+.filter-sidebar .form-range:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px rgba(207, 173, 163, 0.5);
+}
+
+.filter-sidebar .form-range:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px rgba(207, 173, 163, 0.5);
+}
+
+.btn {
+  background-color: #CFADA3;
+  border-color:#CFADA3;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #A67060;
+  color: white;
+}
+
+.btn:active,
+.btn:focus, 
+.btn:active:focus {
+  background-color: #A4391A;
+  border-color: #A4391A;
+  box-shadow: none;
+}
+
+.customBtn {
+  color: black;
+  background: none;
+  border: none;
+}
+
+.customBtn:hover {
+  border:#000;
+}
+
+.customBtn:active,
+.customBtn:focus, 
+.customBtn:active:focus {
+  border-color: black;
+}
+
+.card-img-top {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  width: 100%;
 }
