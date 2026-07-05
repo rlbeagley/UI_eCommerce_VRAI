@@ -30,7 +30,7 @@ export default function Home() {
         <div>
            <Container>
                 <Row className="my-3">
-                    <h2 className="text-center">Your new signature scent profile:</h2>
+                    <h2 className="text-center">Find your new signature scent profile:</h2>
                 </Row>
                 <Row>
                     <Col>

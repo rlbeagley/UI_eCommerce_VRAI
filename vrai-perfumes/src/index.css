@@ -33,6 +33,11 @@ h3{
   color:white;
 }
 
+.about-img {
+  height: 35em;
+  width: auto;
+  object-fit: cover;
+}
 .scent-img {
     height: 30em;
     object-fit: cover;
@@ -132,4 +137,24 @@ h3{
   aspect-ratio: 3 / 4;
   object-fit: cover;
   width: 100%;
+}
+
+.checkout-breadcrumb {
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+.checkout-breadcrumb .breadcrumb-item,
+.checkout-breadcrumb .breadcrumb-item a {
+  color: #CFADA3;
+}
+
+.checkout-breadcrumb .breadcrumb-item.active {
+  color: #A4391A;
+  font-weight: 600;
+}
+
+
+.checkout-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: #CFADA3;
 }
