@@ -4,6 +4,7 @@ import Shop from './pages/shop';
 import Checkout from './pages/checkout';
 import About from './pages/about';
 import Home from './pages/home';
+import Survey from './pages/survey';
 import { CartProvider } from './assets/CartContext';
 
 function App() {

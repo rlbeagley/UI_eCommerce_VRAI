@@ -158,3 +158,49 @@ h3{
 .checkout-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
   color: #CFADA3;
 }
+
+.survey-question label {
+  font-weight: 500;
+  color: #A4391A;
+  margin-bottom: 0.6rem;
+  display: block;
+}
+
+.survey-pill {
+  background-color: #F3F1FC;
+  border: 1px solid #E9E7F5;
+  color: #A67060;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.survey-pill:hover {
+  background-color: #E9E7F5;
+  color: #A67060;
+}
+
+.survey-pill-active,
+.survey-pill-active:hover {
+  background-color: #A67060;
+  border-color: #A4391A;
+  color: #fff;
+}
+
+.survey-textarea {
+  border-color: #CFADA3;
+  resize: none;
+}
+
+.survey-textarea:focus {
+  border-color: #A67060;
+}
+
+.survey-submit {
+  background-color: #CFADA3;
+  border: none;
+  padding: 0.7rem;
+  font-weight: 500;
+}
+
+.survey-submit:hover {
+  background-color: #A67060;
+}
