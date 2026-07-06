@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Table, Button, Row, Col, Form, Container } from 'react-bootstrap';
 import { useCart } from '../assets/CartContext';
 import { Link } from 'react-router-dom';
-import CheckoutBreadcrumb from '../components/CheckoutBreadcrumb';
+import CheckoutBreadcrumb from '../components/checkoutBreadcrumb';
 import CustomNavBar from '../components/navbar';
 import { RiChatSmileAi3Fill } from "react-icons/ri";
 
